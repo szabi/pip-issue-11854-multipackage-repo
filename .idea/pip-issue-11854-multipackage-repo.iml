@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/pkgs/dist-package-one/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pkgs/dist-package-one/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/pkgs/dist-package-two/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pkgs/dist-package-two/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/pkgs/dist-package-one/.tox" />
+      <excludeFolder url="file://$MODULE_DIR$/pkgs/dist-package-one/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/pkgs/dist-package-two/.tox" />
+      <excludeFolder url="file://$MODULE_DIR$/pkgs/dist-package-two/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.10 (pip-issue-11854-multipackage-repo)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

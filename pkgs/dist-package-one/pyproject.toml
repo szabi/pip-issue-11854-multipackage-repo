@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'dist-package-one'
+version = "0.0.2"
+requires-python = ">=3.9"
+
+dependencies = [
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest==7.2.1",
+]
+type = [
+    "mypy==1.0.1",
+    "pytest-stub~=1.1.0",
+]
+tools = [
+    "tox==4.4.6",
+    "build~=0.10",
+    "pip-tools~=6.12"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.mypy]
+install_types = true
+non_interactive = true
+warn_redundant_casts = true
+no_namespace_packages = true
